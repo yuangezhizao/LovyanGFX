@@ -423,5 +423,14 @@ namespace lgfx
   }
 
 //----------------------------------------------------------------------------
+
+  // void Panel_SSD1312::setBrightness(uint8_t brightness)
+  // {
+  //   startWrite();
+  //   _bus->writeCommand(CMD_SETCONTRAST | brightness << 8, 16);
+  //   endWrite();
+  // }
+
+//----------------------------------------------------------------------------
  }
 }
